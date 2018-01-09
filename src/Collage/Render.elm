@@ -62,6 +62,7 @@ svgAbsolute ( width, height ) collage =
             [ Svg.width w
             , Svg.height h
             , Svg.version "1.1"
+            , Svg.pointerEvents "none"
             ]
             [ render collage ]
         ]
